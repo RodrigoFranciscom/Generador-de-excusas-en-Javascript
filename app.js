@@ -9,8 +9,8 @@ function myexcuse() {
    let que = what[Math.floor(Math.random() * 3)]
    let cuando =when[Math.floor(Math.random() * 5)]
 
- let excusa = (quien + accion + que + cuando)
+ let excusa = (quien +" "+ accion +" "+ que +" "+ cuando)
     return excusa;
 }
 
-console.log(myexcuse())
+console.log(myexcuse()) 
